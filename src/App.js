@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import "./Ascii";
+import Ascii from "./Ascii";
+import HomePage from "./HomePage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <HomePage />;
+            <Ascii />;
+            <a href="www.google.com" className="title">
+                4th Floor - my audio company
+            </a>
+            <p className="otherText">
+                I Solve audio problems for immersive applications.
+            </p>
+            ;
+        </div>
+    );
 }
 
 export default App;

@@ -3,26 +3,34 @@ body {
 }
 
 .Ascii {
-    max-width: 425px;
-    word-break: normal;
-    word-wrap: break-word;
-    line-break: loose;
-    overflow-wrap: break-word;
+    max-width: 71ch;
+    word-wrap: normal;
+    word-break: break-all;
+    white-space: pre-wrap;
+    display:block;
+    height: auto;
 
-
-    display: inline-block;
+    font-size: 12px;
     letter-spacing: 0;
     line-height: 1.0;
     font-family: Courier, monospace;
-    font-size: 10px;
-    font-weight: 500;
 
-    border-radius: 1px;
-    border-color: aliceblue;
 }
 
-
-
-b {
-    word-wrap: break-word;
+.title{
+    color: white;
+    font-family: Courier, monospace;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
 }
+
+.otherText{
+    color: white;
+    font-family: Courier, monospace;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+}
+
