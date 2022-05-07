@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.Ascii {
+    max-width: 425px;
+    word-break: normal;
+    word-wrap: break-word;
+    line-break: loose;
+    overflow-wrap: break-word;
+
+
+    display: inline-block;
+    letter-spacing: 0;
+    line-height: 1.0;
+    font-family: Courier, monospace;
+    font-size: 10px;
+    font-weight: 500;
+
+    border-radius: 1px;
+    border-color: aliceblue;
+}
+
+
+
+b {
+    word-wrap: break-word;
+}
