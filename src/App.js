@@ -14,7 +14,6 @@ function App() {
             <p className="otherText">
                 I Solve audio problems for immersive applications.
             </p>
-            ;
         </div>
     );
 }
