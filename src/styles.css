@@ -29,13 +29,28 @@ body {
     padding-left: 20px;
 }
 
-.otherText{
+.buttonsText{
     color: white;
     font-family: Courier, monospace;
     font-size: 14px;
     text-align: left;
     padding-left: 20px;
+    line-height: 24px;
 }
+
+.buttonsText:visited{
+    color: white;
+}
+
+.buttonsText:active{
+    color: white;
+}
+
+.buttonsText:hover{
+    color:tomato;
+}
+
+
 
 @media screen and (max-width: 650px) {
     .Ascii {
