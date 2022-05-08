@@ -3,12 +3,8 @@ import "./styles.css";
 export default function Ascii() {
     return (
         <div className="Ascii">
-            <b style={{ color: "#000000" }}>
-                C7313137483.R97792R134571C107C32754475647536782236717C29C30899R6C..726
-            </b>
-            <b style={{ color: "#000000" }}>
-                C9R431C604667140123600777522923C81200C4.3879R76283C13R667R7238026R4R95
-            </b>
+            <b style={{ color: "#000000" }}>C7313137483.R97792R134571C107C32754475647536782236717C29C30899R6C..726</b>
+            <b style={{ color: "#000000" }}>C9R431C604667140123600777522923C81200C4.3879R76283C13R667R7238026R4R95</b>
             <b style={{ color: "#000000" }}>4C62929C95.6684R.12R78C7.</b>
             <b style={{ color: "#010000" }}>C</b>
             <b style={{ color: "#040100" }}>6</b>
