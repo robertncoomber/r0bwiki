@@ -29,6 +29,14 @@ body {
     padding-left: 20px;
 }
 
+.secondaryText {
+    color: white;
+    font-family: Courier, monospace;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+}
+
 .buttonsText{
     color: white;
     font-family: Courier, monospace;
@@ -47,7 +55,7 @@ body {
 }
 
 .buttonsText:hover{
-    color:tomato;
+    color:rgb(206, 189, 157);
 }
 
 
@@ -55,6 +63,7 @@ body {
 @media screen and (max-width: 650px) {
     .Ascii {
       font-size: 6px; /* The width is 100%, when the viewport is 800px or smaller */
+      max-width: 71ch;
     }
   }
 
