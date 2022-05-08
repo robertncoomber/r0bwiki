@@ -31,7 +31,7 @@ export default function HomePage() {
 
     return (
         <div>
-            <h1 className="title">r0b.wiki - ROBERT COOMBER - {getTime()}</h1>
+            <h1 className="title">Robert Coomber's Personal Site</h1>
         </div>
     );
 }
