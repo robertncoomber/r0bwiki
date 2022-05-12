@@ -1,11 +1,10 @@
 export default function BottomButtons()
 {
     return (
-        <div>
-            <p className="secondaryText">VR & Music</p>
-            <a className="buttonsText" href="www.4th-floor.com">4th Floor</a>
-            <a className="buttonsText" href="twitter.com/r0bwiki">Twitter</a>
-            <a className="buttonsText" href="www.github.com/robertncoomber">Github</a>
+        <div className="bottonGroup">
+            <a className="buttonsText" href="https://4th-floor.com" target="_blank">4th Floor</a>
+            <a className="buttonsText" href="http://twitter.com/r0bwiki" target="_blank">Twitter</a>
+            <a className="buttonsText" href="https://github.com/robertncoomber" target="_blank">Github</a>
         </div>
     )
 }

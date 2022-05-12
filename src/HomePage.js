@@ -31,7 +31,8 @@ export default function HomePage() {
 
     return (
         <div>
-            <h1 className="title">Robert Coomber's Personal Site</h1>
+            <p className="title">Rob Coomber</p>
+
         </div>
     );
 }

@@ -3,13 +3,14 @@ import "./Ascii";
 import Ascii from "./Ascii";
 import HomePage from "./HomePage";
 import BottomButtons from "./BottomButtons";
+import Bio from "./Bio"
 
 function App() {
     return (
         <div>
-            <HomePage />;
             <Ascii />;
             <BottomButtons/>;
+            <Bio />
         </div>
     );
 }

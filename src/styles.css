@@ -4,15 +4,14 @@ body {
 
 .Ascii {
     max-width: 71ch;
-    height: auto;
     word-wrap:break-word;
-    display:block;
     height: auto;
 
     font-size: 8px;
     letter-spacing: 0;
     line-height: 1.15;
     font-family: Courier, monospace;
+    text-align: left;
 
     border: 0px;
     padding: 0px;
@@ -23,31 +22,29 @@ body {
 .title{
     color: white;
     font-family: Courier, monospace;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .secondaryText {
     color: white;
     font-family: Courier, monospace;
-    font-size: 14px;
     text-align: left;
-    padding-left: 20px;
+    padding-inline: 5px;
 }
 
 .buttonsText{
     color: white;
     font-family: Courier, monospace;
-    font-size: 14px;
     text-align: left;
-    padding-left: 20px;
     line-height: 24px;
+    padding-inline: 5px;
 }
 
 .buttonsText:visited{
     color: white;
+    text-align: left;
 }
 
 .buttonsText:active{
@@ -56,6 +53,13 @@ body {
 
 .buttonsText:hover{
     color:rgb(206, 189, 157);
+}
+
+.Bio {
+    color: white;
+    text-align: left;
+    max-width: 50ch;
+    font-family: Courier, monospace;
 }
 
 
