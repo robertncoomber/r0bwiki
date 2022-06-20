@@ -10,20 +10,20 @@ export default function PersonalInformation() {
                     <th></th>
                 </tr>
                 <tr>
-                    <td>Name</td>
+                    <td className="tableP">Name</td>
                     <td className="right">Robert Coomber</td>
                 </tr>
                 <tr>
-                    <td>Occupation</td>
+                    <td className="tableP">Occupation</td>
                     <td className="right">Software, DSP, Audio, VR</td>
                 </tr>
                 <tr>
-                    <td>Location</td>
+                    <td className="tableP">Location</td>
                     <td className="right">Los Angeles, CA</td>
                 </tr>
                 <tr>
-                    <td>Work</td>
-                    <td className="right">4th Floor</td>
+                    <td className="tableP">Work</td>
+                    <td className="right"><a href="https://4th-floor.com">4th Floor</a> </td>
                 </tr>
             </table>
         </div >
