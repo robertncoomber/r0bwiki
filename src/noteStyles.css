@@ -1,0 +1,12 @@
+.note {
+    color: white;
+    max-width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.note:hover {
+    text-decoration: underline;
+}

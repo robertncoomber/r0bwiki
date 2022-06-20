@@ -4,7 +4,7 @@ body {
 
 .Ascii {
     max-width: 71ch;
-    word-wrap:break-word;
+    word-wrap: break-word;
     height: auto;
 
     font-size: 8px;
@@ -19,7 +19,7 @@ body {
     outline: 0px;
 }
 
-.title{
+.title {
     color: white;
     font-family: Courier, monospace;
     font-size: 16px;
@@ -34,40 +34,39 @@ body {
     padding-inline: 5px;
 }
 
-.buttonsText{
+.buttonsText {
     color: white;
-    font-family: Courier, monospace;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
     text-align: left;
     line-height: 24px;
     padding-inline: 5px;
 }
 
-.buttonsText:visited{
+.buttonsText:visited {
     color: white;
     text-align: left;
 }
 
-.buttonsText:active{
+.buttonsText:active {
     color: white;
 }
 
-.buttonsText:hover{
-    color:rgb(206, 189, 157);
+.buttonsText:hover {
+    color: rgb(206, 189, 157);
 }
 
 .Bio {
     color: white;
     text-align: left;
     max-width: 50ch;
-    font-family: Courier, monospace;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
 }
-
-
 
 @media screen and (max-width: 650px) {
     .Ascii {
-      font-size: 6px; /* The width is 100%, when the viewport is 800px or smaller */
-      max-width: 71ch;
+        font-size: 6px; /* The width is 100%, when the viewport is 800px or smaller */
+        max-width: 71ch;
     }
-  }
-
+}

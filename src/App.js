@@ -1,18 +1,33 @@
-import "./styles.css";
-import "./Ascii";
-import Ascii from "./Ascii";
-import HomePage from "./HomePage";
-import BottomButtons from "./BottomButtons";
-import Bio from "./Bio"
+import React from "react";
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
+import Contact from "./Contact";
+import PersonalInformation from "./PersonalInformation";
+import "./styles.css"
+import Notes from "./Notes";
+import NoteEntry from "./NoteEntry";
+import Portait from "./Portrait";
+import Footer from "./footer";
+import "./footerStyle.css"
 
-function App() {
+export default function App() {
     return (
-        <div>
-            <Ascii />;
-            <BottomButtons/>;
-            <Bio />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="/HowToProgramForUnity" element={<div><HowToProgramForUnity /><Footer /></div>} />
+            </Routes>
+        </BrowserRouter >
     );
 }
 
-export default App;
+function Home() {
+    return <h2><div><PersonalInformation /><Contact /><Notes /><br /><Portait /><Footer /></div></h2>;
+}
+
+function HowToProgramForUnity() {
+    return <NoteEntry />;
+}
