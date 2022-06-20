@@ -7,7 +7,10 @@ table {
 }
 
 .right {
-    text-align: right;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: small;
+    color: #ffffff;
 }
 
 td,
@@ -23,12 +26,12 @@ tr:first-child {
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(179, 188, 240);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(114, 96, 96);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 
@@ -45,7 +48,14 @@ a:active {
 
 .myTitle {
     font-family: Helvetica, sans-serif;
-    font-size: large;
+    font-size: small;
     color: #ffffff;
     text-align: center;
+}
+
+.tableP {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: small;
+    color: #ffffff;
 }
