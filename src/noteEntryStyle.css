@@ -8,6 +8,7 @@
 
 p {
     color: white;
+    font-size: small;
 }
 
 h1 {
@@ -20,4 +21,5 @@ h2 {
 
 ul {
     color: white;
+    font-size: small;
 }
