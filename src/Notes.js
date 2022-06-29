@@ -10,18 +10,32 @@ export default function Notes() {
         <div className="robTable">
             <table>
                 <tr>
-                    <th>Notes</th>
+                    <th>Some things</th>
                     <th></th>
                 </tr>
                 <tr>
                     <td className="tableP">
-                        <div className="note">02/27/22 - Learning to Code C# for Unity</div>
-                        <button className="noteButton" onClick={() => navigate("/HowToProgramForUnity")}>read -></button>
+                        <a href="https://www.4th-floor.com/research/dolby-atmos-for-game-engines">Dolby Atmos for Game Engines (research paper) - 2022</a>
                     </td>
                     <th></th>
                 </tr>
+                <tr>
+                    <td className="tableP">
+                        <a href="https://www.4th-floor.com/research/dolby-atmos-for-game-engines">Wwise Livestream 3D Interactive Music (livestream) - 2021</a>
+                    </td>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td className="tableP">
+                        <a href="https://apps.apple.com/us/app/dirty-laundry-by-blake-ruby/id1501449544">Spatial Audio 360 Music (ios app) - 2020</a>
+                    </td>
+                    <th></th>
+                </tr>
+
 
             </table>
         </div >
     )
 }
+
+

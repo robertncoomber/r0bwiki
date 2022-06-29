@@ -18,7 +18,6 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
-                <Route path="/HowToProgramForUnity" element={<div><HowToProgramForUnity /><Footer /></div>} />
             </Routes>
         </BrowserRouter >
     );
