@@ -6,7 +6,7 @@ export default function NoteEntry() {
         <div className="notesEntry">
             <Link to="/">Home</Link>
             <h1>Learning to Code C# for Unity</h1>
-            <p>5/27/2022 - <em>This is targeted to people who are learning to learn C# and Unity.</em></p>
+            <p>5/27/2022 - <em>This is targeted to people who are wanting to learn C# and Unity.</em></p>
             <h2>Getting Started</h2>
             <p>Learn the basics of <a href="https://www.udemy.com/course/csharp-tutorial-for-beginners/" target="_blank" rel="noopener">OOP and C# Programming</a>. Learn and understand Variables, Functions, Classes, Enums, Control Flow, Arrays, Inheritance, Lists, Reading and Writing files, namespaces/using. Use lessons that require you to write code and work through problems. You need to have github cli/desktop working by this time.</p>
             <h2>Start Unity</h2>

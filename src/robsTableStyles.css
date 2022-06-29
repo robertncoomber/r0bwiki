@@ -17,21 +17,20 @@ td,
 th {
     text-align: left;
     font-size: medium;
-    border-bottom: 1px solid #818181;
+    border-bottom: 1px solid #707070;
     padding: 3px;
 }
 
 tr:first-child {
-    background-color: #080808;
+    background-color: #131313;
 }
 
 a {
-    color: rgb(179, 188, 240);
-    text-decoration: none;
+    color: #ffffff;
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(138, 138, 138);
     text-decoration: underline;
 }
 
@@ -58,4 +57,12 @@ a:active {
     font-weight: 300;
     font-size: small;
     color: #ffffff;
+}
+
+.tableTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: small;
+    color: #ffffff;
+    background-color: #4b4b4b;
 }

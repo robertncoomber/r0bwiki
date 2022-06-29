@@ -21,7 +21,13 @@ export default function Notes() {
                 </tr>
                 <tr>
                     <td className="tableP">
-                        <a href="https://www.4th-floor.com/research/dolby-atmos-for-game-engines">Wwise Livestream 3D Interactive Music (livestream) - 2021</a>
+                        <a href="https://www.instagram.com/ar/153264500082040/">✨The Light✨ (Instagram Filter) - 2020</a>
+                    </td>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td className="tableP">
+                        <a href="https://www.youtube.com/watch?v=uVb1ZTVCjvE">Wwise Livestream 3D Interactive Music (livestream) - 2021</a>
                     </td>
                     <th></th>
                 </tr>
@@ -31,7 +37,6 @@ export default function Notes() {
                     </td>
                     <th></th>
                 </tr>
-
 
             </table>
         </div >
