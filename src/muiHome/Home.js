@@ -20,7 +20,7 @@ const Home = () => {
             </Box>
             <Typography variant="body1" component="div" sx={{paddingTop: 6}} gutterBottom flexGrow={1}>
                 I am the technical co-founder of <Link sx={{cursor: "pointer"}} onClick={() => {window.open("https://4th-floor.com")}}>4th Floor</Link>, an immersive audio company. I currently live in Los Angeles, CA. I am passionate 
-about advancing consumer xr technology through audio and software
+about advancing consumer xr technology through audio and software.
             </Typography>
             <Typography variant="h6" component="div" sx={{paddingTop: 4}} gutterBottom flexGrow={1}>
                 Projects
