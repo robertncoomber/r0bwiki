@@ -25,6 +25,9 @@ about advancing consumer xr technology through audio and software.
             <Typography variant="h6" component="div" sx={{paddingTop: 4}} gutterBottom flexGrow={1}>
                 Projects
             </Typography>
+            <Link href="https://www.oculus.com/experiences/quest/3661420607275144/" underline="always" variant="body2" component="div" sx={{paddingY: 0, cursor: "pointer"}} gutterBottom flexGrow={1} onClick={() => {window.open("https://4th-floor.com/research/dolby-atmos-for-game-engines")}}>
+                Gym Class Basketball (Sound Production / Audio Development) - 2023 ↗️
+            </Link>
             <Link href="https://4th-floor.com/research/dolby-atmos-for-game-engines" underline="always" variant="body2" component="div" sx={{paddingY: 0, cursor: "pointer"}} gutterBottom flexGrow={1} onClick={() => {window.open("https://4th-floor.com/research/dolby-atmos-for-game-engines")}}>
                 Dolby Atmos for Game Engines (research paper) - 2022 ↗️
             </Link>
